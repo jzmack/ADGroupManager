@@ -14,7 +14,9 @@ Module will need installed then imported in order to use:
 ```powershell
 Install-Module -Name ADGroupManager
 Import-Module -Name ADGroupManager
+#Module is now ready to use
 ```
+### Adding to $PROFILE
 For use with every PowerShell session, add the following to your PowerShell `$PROFILE` variable:
 ```shell
 if (-not (Get-Module -Name ADGroupManager)) {
